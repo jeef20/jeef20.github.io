@@ -1,0 +1,93 @@
+@charset "UTF-8";
+html {
+	background-color: black
+}
+body header h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: x-large;
+	font-style: normal;
+	color: mediumpurple;
+	font-weight: bold;
+	text-align: center;
+}
+nav {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: medium;
+	font-style: normal;
+	text-color: lavender;
+	font-weight: bold;
+	border-color: mediumpurple;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 12px;
+}
+
+
+body h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: large;
+	font-style: normal;
+	color: mediumpurple;
+	font-weight: bold;
+	float: right;
+	
+}
+main ul li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: small;
+	font-style: normal;
+	color: lavender;
+	font-weight: bold;
+	width: 460px;
+}
+body main p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: small;
+	font-style: normal;
+	color: lavender;
+	font-weight: bold;
+	width: 500px;
+}
+main section h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: x-large;
+	font-style: normal;
+	color: mediumpurple;
+	font-weight: bold;
+}
+body main section {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: large;
+	font-style: normal;
+	color: lavender;
+	font-weight: normal;
+}
+body p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: large;
+	font-style: normal;
+	color: mediumpurple;
+	font-weight: bold;
+}
+body section {
+	text-align:center;
+}
+.last_updated {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: small;
+	font-style: normal;
+	color: lavender;
+	font-weight: normal;
+}
+body main img {
+	float: right;
+	width: 600px;
+	height: inherit;
+}
+main section img {
+	float: left;
+	width: 460px;
+	height: inherit;
+}

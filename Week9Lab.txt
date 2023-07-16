@@ -1,0 +1,52 @@
+Q1. 
+SELECT COUNT(*)
+FROM books
+WHERE category = 'COOKING';
+
+Q2.
+SELECT COUNT(*)
+FROM books
+WHERE retail > 30;
+
+Q3.
+SELECT MAX(pubdate)
+FROM books;
+
+Q4.
+SELECT SUM((retail-cost)*quantity)
+FROM orders JOIN orderitems USING(order#) JOIN books USING(isbn)
+WHERE customer# = 1017;
+
+Q5.
+SELECT MIN(retail)
+FROM books
+WHERE category = 'COMPUTER';
+
+Q6.
+SELECT AVG(SUM((retail-cost)*quantity))
+FROM orders JOIN orderitems USING(order#) JOIN books USING(isbn)
+GROUP BY order#;
+
+Q7.
+SELECT customer#, COUNT(*)
+FROM orders
+GROUP BY customer#;
+
+Q8.
+SELECT name, category, AVG(retail)
+FROM books JOIN publisher USING(pubid)
+WHERE category IN('COMPUTER', 'CHILDREN')
+GROUP BY name, category;
+
+Q9.
+SELECT DISTINCT firstname, lastname
+FROM customers JOIN orders USING(customer#) JOIN orderitems USING(order#) JOIN books USING(isbn)
+WHERE (state = 'FL' or state = 'GA')
+GROUP BY order#, firstname, lastname
+HAVING SUM(retail*quantity)>80;
+
+Q10.
+SELECT MAX(retail)
+FROM books JOIN bookauthor USING(isbn) JOIN author USING(authorid)
+WHERE lname = 'WHITE'
+AND fname = 'LISA';

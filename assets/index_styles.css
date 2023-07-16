@@ -1,0 +1,67 @@
+@charset "UTF-8";
+html {
+	background-color: black;
+}
+body header h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: x-large;
+	font-style: normal;
+	color: mediumpurple;
+	font-weight: bold;
+	text-align: center;
+}
+nav {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: large;
+	font-style: normal;
+	text-color: lavender;
+	font-weight: bold;
+	border-color: mediumpurple;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 12px;
+}
+
+main section h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: x-large;
+	font-style: normal;
+	color: mediumpurple;
+	font-weight: bold;
+}
+body main h4 {
+	font-size: x-large;
+	font-style: oblique;
+	color: mediumpurple;
+	font-weight: bold;
+	text-align: center;
+}
+main section img {
+	max-width: 95%;
+	margin: auto;
+	align-self: center;
+}
+body main section {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: large;
+	font-style: normal;
+	color: lavender;
+	font-weight: normal;
+	text-align: center;
+}
+body main p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: large;
+	font-style: normal;
+	color: lavender;
+	text-align: center;
+}
+.last_updated {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: small;
+	font-style: normal;
+	color: lavender;
+	font-weight: normal;
+}
